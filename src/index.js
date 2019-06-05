@@ -132,6 +132,8 @@ class GoogleMap extends React.Component {
     )
     const center = bounds.getCenter()
 
+    console.log("center", center)
+
     bounds
       .extend(
         new googleMaps.LatLng(
